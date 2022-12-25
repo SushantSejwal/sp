@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'mobius';
+    src: url('font/mobiusinfinity-Regular.woff2') format('woff2'),
+        url('font/mobiusinfinity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'wild';
+    src: url('font/wild-BoldItalic.woff2') format('woff2'),
+        url('font/wild-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'wild';
+    src: url('font/wild-Italic.woff2') format('woff2'),
+        url('font/wild-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'wild';
+    src: url('font/wild-Bold.woff2') format('woff2'),
+        url('font/wild-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'wild';
+    src: url('font/wild-Regular.woff2') format('woff2'),
+        url('font/wild-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
