@@ -46,7 +46,7 @@
 
     let options = {
         rootMargin: "0px 0px 50px 0px",
-        threshold: "1" 
+        threshold: "0" 
     }
 
     let landing_observer = new IntersectionObserver((entries)=> {
