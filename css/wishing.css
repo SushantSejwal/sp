@@ -129,14 +129,57 @@
 /* whom's section*/
 .whom-wrapper{
     text-align: center;
-    margin: 20px;
+    margin: 20px 20px 120px 20px;
 }
 .whom{
     padding: 20px 40px 40px 40px;
 }
 .whom-text{
     font-size: clamp(30px, 4vw, 80px);
-    font-family: bree;
+    font-family: "bree", sans-serif;
     font-weight: 600;
     color: #73586a;
 }
+
+/* pragati name */
+.pragati-birthday-wrapper{
+    height: 100vh;
+    background-color: #fbebeb;
+}
+
+.pragati-birthday{
+    height: inherit;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:768px) {
+    .pragati-birthday{
+        padding: 20px;
+    
+    }
+}
+
+.pragati{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(20px, 18vw, 180px);
+    font-family: 'love', 'bree', 'surco', 'mobius', sans-serif;
+    color: #dd5e5e;
+}
+
+.pragati-g-svg{
+    width: clamp(20px, 22vw, 180px);
+}
+
+.pragati-g-svg .cls-1,
+.pragati-g-svg .cls-2,
+.pragati-g-svg .cls-3,
+.pragati-g-svg .cls-4 { fill: #dd5e5e}
+.pragati-g-svg .cls-2, 
+.pragati-g-svg .cls-3 { opacity: 0.9;}
+.pragati-g-svg .cls-0{ fill: #545e2e; }
