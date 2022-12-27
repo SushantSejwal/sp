@@ -135,15 +135,15 @@
     padding: 20px 40px 40px 40px;
 }
 .whom-text{
-    font-size: clamp(30px, 4vw, 80px);
+    font-size: clamp(20px, 4vw, 80px);
     font-family: "bree", sans-serif;
     font-weight: 600;
     color: #73586a;
 }
 
-/* pragati name */
+/*=== PRAGATI'S BIRTHDAY ===*/
 .pragati-birthday-wrapper{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fbebeb;
 }
 
@@ -153,6 +153,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -170,6 +171,8 @@
     font-size: clamp(20px, 18vw, 180px);
     font-family: 'love', 'bree', 'surco', 'mobius', sans-serif;
     color: #dd5e5e;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
 }
 
 .pragati-g-svg{
@@ -183,3 +186,23 @@
 .pragati-g-svg .cls-2, 
 .pragati-g-svg .cls-3 { opacity: 0.9;}
 .pragati-g-svg .cls-0{ fill: #545e2e; }
+
+
+/* pragati full form */
+.pragati-full-form{
+    padding: 30vh 10px;
+}
+
+.pragati-ff-text{
+    font-size: clamp(20px, 12vw, 180px);
+    /* padding: 10px; */
+    font-family: 'love';
+    color: #dd5e5e;
+    color: #e68989;
+}
+
+.pragati-ff-fl{
+    color: #dd5e5e;
+}
+
+/* e68989  e37a7a  e06c6c */
