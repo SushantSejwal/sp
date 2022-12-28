@@ -135,7 +135,7 @@
     padding: 20px 40px 40px 40px;
 }
 .whom-text{
-    font-size: clamp(20px, 4vw, 80px);
+    font-size: clamp(20px, 6vw, 80px);
     font-family: "bree", sans-serif;
     font-weight: 600;
     color: #73586a;
@@ -189,20 +189,66 @@
 
 
 /* pragati full form */
-.pragati-full-form{
-    padding: 30vh 10px;
+.my-opinion-wrapper{
+    background: #F5F5F7;
+    padding: 10px;
 }
 
-.pragati-ff-text{
-    font-size: clamp(20px, 12vw, 180px);
-    /* padding: 10px; */
-    font-family: 'love';
-    color: #dd5e5e;
-    color: #e68989;
+.my-opinion{
+    text-align: center;
+    padding:  20vh 20px 15vh 20px;
 }
 
-.pragati-ff-fl{
-    color: #dd5e5e;
+.my-opinion-text{
+    font-family: "bree", "Sushant", sans-serif;
+    font-size: clamp(20px, 10vw, 180px);
+    font-weight: 700;
+    color: #8876FE;
+    color: #F63E54;
 }
 
-/* e68989  e37a7a  e06c6c */
+.pragati-view{
+    background: #ffffff;
+    margin: 10px 30px;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.pragati-view-header{
+    margin-bottom: 40px;
+}
+.pragati-view-heading{
+    font-size: clamp(20px, 8vw, 180px);
+    font-family: "bree", "Sushant", sans-serif;
+    color: #F63E54;
+    font-weight: 700;
+}
+
+.pragati-view-heghlight{
+    font-size: clamp(18px, 2vw, 180px);
+    font-family: "Sushant", sans-serif;
+    color: #FBB8C0;
+    font-weight: 700;
+    margin-top: -5px;
+}
+.pragati-view-heghlight-letter{
+    color: #F63E54;
+}
+
+.pragati-view-body{
+    color: #1D1D1F;
+    padding: 10px 0px 30px 0px;
+}
+.pragati-view-text{
+    font-family: 'Sushant', sans-serif;
+    color: #1D1D1F;
+    font-size: clamp(18px, 2vw, 180px);
+    font-weight: 500;
+}
+
+
+/* dd5e5e e68989  e37a7a  e06c6c */
