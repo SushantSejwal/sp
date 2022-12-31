@@ -142,6 +142,14 @@
 }
 
 /*=== PRAGATI'S BIRTHDAY ===*/
+.pragati-birthday-wrapper-top{
+    min-height: 10vh;
+    background:linear-gradient(#F7E3E8, #FBEBEB) ;
+}
+.pragati-birthday-wrapper-bottom{
+    min-height: 10vh;
+    background:linear-gradient(#FBEBEB, #F5F5F7) ;
+}
 .pragati-birthday-wrapper{
     min-height: 100vh;
     background-color: #fbebeb;
@@ -237,4 +245,19 @@
 }
 
 
-/* dd5e5e e68989  e37a7a  e06c6c #F63E54; */
+
+.my-opinion-end{
+    text-align: left;
+    padding:  20vh 20px 5vh 20px;
+    max-width: 950px;
+    margin: auto;
+}
+
+.my-opinion-text-end{
+    font-family: "Sushant", sans-serif;
+    font-size: clamp(20px, 3vw, 180px);
+    font-weight: 500;
+    color: #383838;
+    padding: 2vh 0px;
+    line-height: 1.5;
+}

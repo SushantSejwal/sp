@@ -57,12 +57,16 @@
     let pragati_birthday = document.querySelector(".pragati-birthday-wrapper");
     let my_opinion = document.querySelector(".my-opinion");
     let pragati_view = document.querySelector(".pragati-view");
+    let pragati_view_end = document.querySelectorAll(".my-opinion-text-end");
     let pragati_observer_array = [pragati_birthday, my_opinion, pragati_view];
+
+    pragati_view_end.forEach(node => {pragati_observer_array.push(node); });
     
     let pragati = document.querySelector(".pragati");
     pragati.style.opacity = 0;
     my_opinion.style.opacity = 0;
     pragati_view.style.opacity = 0;
+    pragati_view_end.forEach(node => {node.style.opacity = 0; });
 
     function pragatiCallback(entries){
         entries.forEach(entry => {
@@ -78,7 +82,7 @@
 
     let pragati_observer_options = {
         rootMargin: "0px 0px 0px 0px",
-        threshold: "0.8" 
+        threshold: "0.5" 
     }
 
     let pragati_observer = new IntersectionObserver((entries)=> {
